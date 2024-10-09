@@ -1,0 +1,120 @@
+.banner {
+    background: url("https://i.pinimg.com/736x/13/63/0b/13630b0416657e4becf2f157370b6fad.jpg") no-repeat center center;
+    background-size: cover;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    color: #f5f7fb;
+}
+
+.banner h4, .banner h3 {
+    text-shadow: 
+        1px 1px 0 #000,   /* Outline hitam */
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Memastikan konten di dalam card terpusat */
+    height: 100%; /* Memastikan card memiliki tinggi yang sama */
+}
+
+.card-img-top {
+    object-fit: cover; /* Memastikan gambar memenuhi area card */
+    border-radius: 0.5rem; /* Menambahkan sudut melengkung pada gambar */
+}
+
+.crop-img {
+    overflow: hidden; /* Memastikan gambar tidak melampaui batas card */
+    height: 200px; /* Menjaga tinggi tetap konsisten */
+}
+
+.card-title {
+    font-size: 1.25rem; /* Menyesuaikan ukuran font judul */
+    margin-bottom: 0.5rem; /* Menambah jarak antara judul dan teks */
+}
+
+.card-text {
+    text-align: center; /* Memastikan teks terpusat */
+}
+
+.lingkaran {
+    display: inline-block;
+    border-radius: 50%;
+    width: 150px;
+    margin: auto;
+    height: 150px;
+    color: #fff;
+    background-color: #260443;
+}
+
+.lingkaran i {
+    position: relative;
+    top: 30px;
+}
+
+.tim img {
+    width: 250px;
+    border: 10px solid #cccccc; /* Tambahkan border */
+}
+
+a.social {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    border-radius: 50%;
+    background-color: #333;
+    line-height: 40px;
+}
+
+.Pengalaman .tim img {
+    border: 5px solid #fff; /* Tambahkan border putih */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Tambahkan shadow */
+}
+
+.Pengalaman .tim h4 {
+    margin-top: 10px; /* Tambahkan jarak atas */
+}
+
+.Pengalaman .tim p {
+    margin-top: 5px; /* Tambahkan jarak atas */
+}
+
+.kontak {
+    background: url("https://i.pinimg.com/564x/6e/48/93/6e4893dc049f0fc0f43e228ce8cb8755.jpg") no-repeat center center;
+    background-size: cover;
+    padding-bottom: 20%;
+    padding-top: 20%;
+    color: #20068a;
+}
+
+.logo {
+    max-width: 50px; /* Atur lebar maksimal */
+    height: auto; /* Biarkan tinggi menyesuaikan */
+    object-fit: contain; /* Pastikan rasio aspek terjaga */
+    margin-right: 5px; /* Tambahkan jarak antara gambar dan teks */
+}
+.alert {
+    padding: 15px;
+    background-color: #4CAF50;
+    /* Warna hijau untuk sukses */
+    color: white;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 18px;
+  }
+
+  .alert-success {
+    border-left: 6px solid #46a049;
+  }
+
+  .alert-success:before {
+    content: "\2714";
+    /* Icon check mark */
+    font-size: 22px;
+    margin-right: 10px;
+    vertical-align: middle;
+  }
